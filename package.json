@@ -18,6 +18,10 @@
   "homepage": "https://github.com/bdrobniuch/sass-projekt#readme",
   "devDependencies": {
     "gul": "^1.0.0",
+    "gulp-cssbeautify": "^1.0.0",
     "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
   }
 }
