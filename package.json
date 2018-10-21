@@ -1,0 +1,23 @@
+{
+  "name": "sass-projekt",
+  "version": "1.0.0",
+  "description": "projekt fajny ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdrobniuch/sass-projekt.git"
+  },
+  "author": "Blaszka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdrobniuch/sass-projekt/issues"
+  },
+  "homepage": "https://github.com/bdrobniuch/sass-projekt#readme",
+  "devDependencies": {
+    "gul": "^1.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
