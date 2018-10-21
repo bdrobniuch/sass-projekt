@@ -1,4 +1,6 @@
+@import "defs";
+
 body {
+    @include font;
     background-color: chartreuse;
-    
 }
