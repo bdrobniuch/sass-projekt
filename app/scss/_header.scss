@@ -1,0 +1,82 @@
+@import "defs";
+
+#main-header {
+    height: 100vh;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .container {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+
+        .container-inner {
+            .fas {
+                color: $zolty;
+                font-size: 35px;
+            }
+
+            &.right {
+                margin-left: auto;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+
+                .fas {
+                    margin: 10px;
+
+                    transform: scale(-1, 1);
+                    color: white;
+                }
+
+                p {
+                    margin: 0;
+                }
+
+            }
+        }
+    }
+
+    .container-form {
+        font-weight: bold;
+        margin-left: auto;
+        width: 40%;
+        min-width: 300px;
+        color: white;
+
+        span {
+            color: $zolty;
+        }
+
+        form {
+
+            padding: 16px;
+            background-color: $niebieski;
+
+            fieldset {
+                margin: 0;
+                border: 0;
+                padding: 0;
+
+                input,
+                textarea {
+                    width: 100%;
+                    padding: 12px;
+                    margin-bottom: 8px;
+                }
+
+                input[type="submit"] {
+                    background-color: $zolty;
+                    border: 0;
+                    width: auto;
+                    font-weight: bold;
+
+                }
+            }
+        }
+    }
+
+}

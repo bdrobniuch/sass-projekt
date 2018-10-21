@@ -1,52 +1,67 @@
 @import "defs";
 
-body {
-    @include font;
-    margin: 0;
-    background-color: chartreuse;
-
-    header {
-
-        background-image: url(../img/background.png);
-        height: 100vh; //do usniecia
-
-
-
-
-        .container {
-            padding: 12px;
-            width: 90%;
-            display: flex;
-            justify-content: space-between;
-            margin-left: auto;
-            margin-right: auto;
-
-            .icon-cont {
-                display: flex;
-
-                .fas {
-                    font-size: 30px;
-                    color: $zolty;
-                }
-
-                h1 {
-                    color: white;
-                    margin: 0;
-                    font-weight: bold;
-                    font-size: 26px;
-                }
-            }
-            
-            .call-us {
-                margin: 12px;
-                .fas {
-                    font-size: 30px;
-                    transform: scale(-1, 1);
-                }
-                display: flex;
-                color: white;
-            }
-
-        }
-    }
+*{
+    box-sizing: border-box;
+//    margin: 0;
+   @include font; 
 }
+
+body {
+    margin: 0;
+}
+
+@import "header";
+@import "footer";
+
+
+
+//body {
+//    @include font;
+//    margin: 0;
+//    background-color: chartreuse;
+//
+//    header {
+//
+//        background-image: url(../img/background.png);
+//        height: 100vh; //do usniecia
+//
+//
+//
+//
+//        .container {
+//            padding: 12px;
+//            width: 90%;
+//            display: flex;
+//            justify-content: space-between;
+//            margin-left: auto;
+//            margin-right: auto;
+//
+//            .icon-cont {
+//                display: flex;
+//
+//                .fas {
+//                    font-size: 30px;
+//                    color: $zolty;
+//                }
+//
+//                h1 {
+//                    color: white;
+//                    margin: 0;
+//                    font-weight: bold;
+//                    font-size: 26px;
+//                }
+//            }
+//            
+//            .call-us {
+//                margin: 12px;
+//                .fas {
+//                    font-size: 30px;
+//                    transform: scale(-1, 1);
+//                }
+//                display: flex;
+//                color: white;
+//            }
+//
+//        }
+//    }
+//}

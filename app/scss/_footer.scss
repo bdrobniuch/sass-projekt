@@ -1,0 +1,51 @@
+@import "defs";
+
+//footer {
+//    background-color: $szary;
+//    display: flex;
+//    flex-wrap: wrap;
+//    justify-content: center;
+//
+//    div {
+//        align-items: center;
+//        display: flex;
+//
+//        justify-content: center;
+//        flex-flow: column wrap;
+//        
+//        color: white;
+//    }
+//
+//    .icons {
+//        flex-basis: 50%;
+//
+//
+//    }
+//}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $szary;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+    .footer-inner {
+        flex-basis: 50%;
+
+        i {
+            background-color: $zolty;
+            color: $szary;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+        }
+
+
+    }
+
+    p {
+        flex-basis: 100%;
+    }
+
+}
