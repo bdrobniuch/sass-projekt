@@ -1,4 +1,46 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
     background-color: chartreuse;
+}
+
+body header {
+    background-image: url(../img/background.png);
+    height: 100vh;
+}
+
+body header .container {
+    padding: 12px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body header .container .icon-cont {
+    display: flex;
+}
+
+body header .container .icon-cont .fas {
+    font-size: 30px;
+    color: #ecd407;
+}
+
+body header .container .icon-cont h1 {
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+body header .container .call-us {
+    margin: 12px;
+    display: flex;
+    color: white;
+}
+
+body header .container .call-us .fas {
+    font-size: 30px;
+    transform: scale(-1, 1);
 }
